@@ -1,0 +1,14 @@
+{
+  "name": "helio-ai-support-dashboard",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A deployable support inbox starter with AI-ready reply drafting UI and demo data.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2" }
+}
